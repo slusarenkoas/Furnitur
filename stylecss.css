@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 1440px;
+    height: 5620px;
+    background: #FFFFFF;
+}
+
+/* Header part */
+.header {
+    display: flex;
+    height: 32.992897033691406px;
+    width: 1216px;
+    margin-left: 100px;
+    margin-top: 71px;
+    border-radius: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: left;
+
+
+}
+
+.navmenu {
+    width: 894px;
+    height: 32.99px;
+}
+
+.header .navmenu ul {
+    margin: 0;
+    display: flex;
+    font-family: 'Nunito Sans';
+    font-size: 19px;
+    list-style: none;
+    justify-content: space-between; 
+    
+}
+
+.header .navmenu ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;   
+}
+.header .navmenu ul .basket {
+    padding-left: 80px;
+}
+/* Home part */
+.home {
+    display: inline-block;
+    height: 767px;
+    width: 1425px;
+    margin-left: -45px;
+    margin-top: 208px;   
+}
+
+.homepart1 {
+    width: 896px;
+    height: 698.5px;
+    background-image: url(Image/backhome1.png);
+    position: absolute;
+    top: 217.5px;
+    left:-45px;
+}
+.homepart1 .rectangle {
+    position: absolute;
+    left:45px;
+    top: 24px;
+    width: 35px;
+    height: 264px;
+    background-color: #F7515C;
+}
+
+.homepart1 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0%;
+    color: #F7515C;
+    margin-left: 145px;
+    margin-top: 122px;
+    margin-bottom: 0;
+}
+
+.homepart1 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    margin-top: 62px;
+    margin-left: 145px;
+    margin-right: 101px;
+    margin-bottom: 0;
+}
+
+.buttomhome {
+    display: flex;
+    margin-top: 47px;
+    margin-left: 145px;
+    list-style: none;
+}
+
+.buttom1 {
+    width: 207px;
+    height: 78px;
+    background-color: #F7515C;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 0;
+    margin-left: -40px;  
+}
+
+.buttom2 {
+     padding: 13px 0;
+     margin-left: 67px;
+}
+
+.buttom3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    padding: 25px 0;
+    margin-left: 24px;
+}
+
+.imagehomepart2:first-child {
+    position: absolute;
+    left:837px;
+    top: 208px;
+    right: 138px;   
+}
+
+.imagehomepart2:last-child {
+    position: absolute;
+    top:226,76px;
+    left: 1062px;
+    z-index: -1;
+}
+
+.about {
+    width: 1177px;
+    height: 810.29px;
+    left: 52px;
+    top: 1225px;
+    position: absolute;
+}
+
+.imageabout {
+    top:0;
+    left:48px;
+    z-index: 1;
+    position: absolute;
+}
+
+.imageabout1 {
+    top: 332px;
+    left: 140px;
+    z-index: 0;
+    position: absolute;
+}
+
+.imageabout2 {
+    left: 0;
+    top: 521px;
+    z-index: 0;
+    position: absolute;
+}
+
+.imageabout3 {
+    top: 504px;
+    left:140px;
+    z-index: 2;
+    position: absolute;
+}
+
+.about h1 {
+    margin-left: 659px;
+    margin-top: 52px;
+    margin-bottom: 0;
+    width: 194px;
+    height: 73px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    }
+
+.about h2 {
+    margin-left: 659px;
+    margin-top: 0;
+    width: 491px;
+    height: 122px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 122px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+.about p {
+    margin-left: 659px;
+    margin-top: 55px;
+    width: 518px;
+    height: 128px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(40, 42, 48, 0.5);
+}
+
+.about button {
+    margin-top: 48px;
+    margin-left: 659px;
+    width: 230px;
+    height: 78px;
+    background-color: #F7515C;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 0;
+    border: none;
+}
